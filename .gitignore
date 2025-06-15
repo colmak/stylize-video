@@ -1,0 +1,136 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Video files (test outputs)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+!test_video.mp4
+
+# Model checkpoints and downloads
+models/checkpoints/*.pth
+models/checkpoints/*.pt
+models/checkpoints/*.ckpt
+*.pth
+*.pt
+*.ckpt
+
+# Temporary processing files
+temp/
+tmp/
+*.tmp
+
+# Audio files
+*.wav
+*.mp3
+*.aac
+*.flac
+
+# Image files (frames)
+frames/
+*_frames/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Large files and datasets
+*.zip
+*.tar.gz
+*.rar
+dataset/
+data/
+
+# GPU memory dumps
+*.nvvp
+
+# MLflow
+mlruns/
+
+# Weights & Biases
+wandb/
